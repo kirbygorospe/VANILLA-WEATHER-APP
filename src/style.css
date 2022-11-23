@@ -24,6 +24,17 @@ li {
   text-transform: capitalize;
 }
 
+a:link {
+  text-decoration: none;
+  cursor: default;
+}
+
+.weather-temperature .active {
+  color: rgb(135, 135, 135);
+  text-decoration: none;
+  cursor: default;
+}
+
 .weather-app-wrapper {
   width: 600px;
   margin: 30px auto;
